@@ -1,0 +1,14 @@
+<ul class="main-menu">
+{% for page in site.pages %}
+  {% if page.url != '/' %}
+  <li {% if page.url == url %} class="active"{% endif %}>
+    <a href="{{page.url}}">
+      {{page.title}}
+    </a>
+  </li>
+  {% endif %}
+{% endfor %}
+  <li>
+    <a href="mailto:{{site.meta['email-contact']}}">Contact</a>
+  </li>
+</ul>

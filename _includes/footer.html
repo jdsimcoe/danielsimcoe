@@ -1,0 +1,25 @@
+<footer class="footer">
+  <div class="wrap">
+    <div class="column">
+      <h3>Our Location</h3>
+      <address>
+        {{site.meta['address']}}<br>
+        {{site.meta['city']}}, {{site.meta['state']}} {{site.meta['zip']}}<br/>
+        <a href="https://www.google.com/maps/place/{{site.meta['google-maps']}}">(Map)</a>
+      </address>
+    </div>
+    <div class="column">
+      <h3>Contact</h3>
+      <p>
+        p {{site.meta['phone']}}<br/>
+        f {{site.meta['fax']}}<br/>
+        <a href="mailto:{{site.meta['email-contact']}}">{{site.meta['email-contact']}}</a>
+      </p>
+    </div>
+  </div>
+</footer>
+<div class="copyright">
+  <p>
+    &copy; 2015. {{site.title}}. All Rights Reserved.
+  </p>
+</div>
