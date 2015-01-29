@@ -4,9 +4,6 @@
 // - all header styles go here
 // ================================================
 
-.icon-logo {
-  @include danielsimcoe-logo;
-}
 
 // Header
 // ------------------------------------------------
@@ -25,6 +22,12 @@
   color: $white;
 }
 
+.header .logo {
+  width: 450px;
+  max-width: 90%;
+  height: auto;
+}
+
 .header .site-title {
   margin: 0;
   font-size: 9rem;
@@ -40,7 +43,7 @@
   text-align: center;
 }
 
-hr {
+.header hr {
   border: none;
   border-top: .2rem solid $white;
 }

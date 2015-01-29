@@ -42,3 +42,10 @@ a {
     text-decoration: none;
   }
 }
+
+hr {
+  margin: 3rem 0;
+  outline: none;
+  border: none;
+  border-top: 2px solid lighten($brand-slate, 35%);
+}

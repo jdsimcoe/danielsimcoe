@@ -37,18 +37,10 @@
 
 /** Sass variables **/
 
-$danielsimcoe-logo: '\f102';
-
-$danielsimcoe-menu: '\f103';
+$danielsimcoe-menu: '\f100';
 
 
 /** Sass mixins **/
-
-@mixin danielsimcoe-logo() {
-  &:before {
-    content: $danielsimcoe-logo;
-  }
-}
 
 @mixin danielsimcoe-menu() {
   &:before {
