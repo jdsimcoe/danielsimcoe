@@ -1,0 +1,69 @@
+---
+time: 1422553903
+inventory:
+  /home/index.html:
+    md5: 18d2955ad471ca79c3956ed1a6af49c5
+    time: 1422553895
+  /index.html:
+    md5: 18d2955ad471ca79c3956ed1a6af49c5
+    time: 1422553895
+  /about/index.html:
+    md5: 2ee5091b8133bf2acb58e571ea321ec7
+    time: 1422553895
+  /services/index.html:
+    md5: 825895de7dcb7b953655fe2ddb655888
+    time: 1422553895
+  /location/index.html:
+    md5: 2facc89056487dd3ee08d7c2c5b0cdc7
+    time: 1422553895
+  /CNAME:
+    md5: 0496108d9012afa2a316299482a14707
+    time: 1422553895
+  /sitemap.xml:
+    md5: a49e211b6c00e16d6216e632958d929d
+    time: 1422553895
+  /feed.xml:
+    md5: b3ad483ba43cfa66af1ac7670a6ea96f
+    time: 1422553895
+  /assets/home.jpg:
+    md5: b8e98eeba21c3f31c426598eb6e041c7
+    time: 1422553895
+  /assets/about.jpg:
+    md5: 1108867e4ec7730e289e2b07345ac0d7
+    time: 1422553896
+  /assets/services.jpg:
+    md5: 89fc652ea9e25f1d5c1b6c4209652823
+    time: 1422553896
+  /assets/location.jpg:
+    md5: ee647c9a191c0a70da65e28d073f439e
+    time: 1422553897
+  /assets/build/fonts/icons.eot:
+    md5: 60d9e508eaf6f845ffcd6e692ef75721
+    time: 1422553897
+  /assets/build/fonts/icons.svg:
+    md5: bd5d85255bcb9f0a01f383981dba6b10
+    time: 1422553897
+  /assets/build/fonts/icons.ttf:
+    md5: 619a155a4af883bb2218dbd39ac4132b
+    time: 1422553897
+  /assets/build/fonts/icons.woff:
+    md5: f16a80cd686eb1aabadb8c066b3d5e8d
+    time: 1422553898
+  /assets/build/images/apple-touch-icon-precomposed.png:
+    md5: cb724ac06bba7aff1564311181ee53aa
+    time: 1422553898
+  /assets/build/images/daniel-simcoe.svg:
+    md5: 9d7ad402bcbc17220d12a631a772e6be
+    time: 1422553898
+  /assets/build/images/favicon.ico:
+    md5: b6c0e301c17ed1d39e8dd74bf3c1bcff
+    time: 1422553898
+  /assets/build/scripts/main.js:
+    md5: b6ad52a92a9a94769a386684e7c3e64d
+    time: 1422553899
+  /assets/build/scripts/main.min.js:
+    md5: e78b046b78b387cdabc6fad1a5f95e24
+    time: 1422553899
+  /assets/build/styles/main.min.css:
+    md5: 9eaf2f914b7b65479964cb52b9d9e70c
+    time: 1422553899
