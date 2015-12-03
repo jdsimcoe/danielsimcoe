@@ -1,0 +1,68 @@
+@import "reset.css";
+@font-face{font-family:'OpenBaskerville';src:url('../fonts/OpenBaskerville/openbaskerville-0.0.53-webfont.eot');src:url('../fonts/OpenBaskerville/openbaskerville-0.0.53-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenBaskerville/openbaskerville-0.0.53-webfont.woff') format('woff'),url('../fonts/OpenBaskerville/openbaskerville-0.0.53-webfont.ttf') format('truetype'),url('../fonts/OpenBaskerville/openbaskerville-0.0.53-webfont.svg#OpenBaskerville0053Normal') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'SortsMillGoudyRegular';src:url('../fonts/SortsMillGoudy/GoudyStM-webfont.eot');src:url('../fonts/SortsMillGoudy/GoudyStM-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/SortsMillGoudy/GoudyStM-webfont.woff') format('woff'),url('../fonts/SortsMillGoudy/GoudyStM-webfont.ttf') format('truetype'),url('../fonts/SortsMillGoudy/GoudyStM-webfont.svg#SortsMillGoudyRegular') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'SortsMillGoudyItalic';src:url('../fonts/SortsMillGoudy/GoudyStM-Italic-webfont.eot');src:url('../fonts/SortsMillGoudy/GoudyStM-Italic-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/SortsMillGoudy/GoudyStM-Italic-webfont.woff') format('woff'),url('../fonts/SortsMillGoudy/GoudyStM-Italic-webfont.ttf') format('truetype'),url('../fonts/SortsMillGoudy/GoudyStM-Italic-webfont.svg#SortsMillGoudyItalic') format('svg');font-weight:normal;font-style:normal;}*{-webkit-font-smoothing:antialiased;text-rendering:optimizelegibility;}
+body{font-family:'SortsMillGoudyRegular','Open Baskerville',Baskerville,Palatino,'Goudy Old Style',Georgia,Times,serif;color:#222;}
+p{padding:10px 0;}
+img{border:5px solid #dfdfdf;}
+blockquote{background:#ccc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;margin:20px 0;padding:20px;position:relative;text-shadow:1px 1px 1px #ffffff;}
+blockquote:after{content:"\00a0";display:block;bottom:-30px;right:50px;width:0;height:0;position:absolute;border-width:15px 15px;border-style:solid;border-color:#ccc transparent transparent;}
+blockquote+p{color:#c8b4b4;font-size:.857em;font-style:italic;margin:0 15px 0 0;text-align:right;}
+strong{font-weight:normal;}
+em{font-style:italic;}
+a{text-decoration:none;color:#336699;}
+hr{height:0;border:none;}
+h3{font-size:26px;margin:10px 0;}
+.amp{font-family:'SortsMillGoudyItalic','Open Baskerville',Baskerville,Palatino,'Goudy Old Style',Georgia,Times,serif;font-weight:normal;color:rgba(255, 255, 255, 0.65);font-size:1.2em;text-shadow:none;}
+.clear{clear:both;}
+.left{float:left;}
+.col{width:220px;float:left;}
+.button{background-clip:border-box;background:url(../img/36px-blended.png) repeat-x 0 0 #4f4a41;background-origin:padding-box;border:1px solid rgba(0, 0, 0, 0.246094);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;color:white;cursor:pointer;display:inline-block;font-size:18px;font-style:normal;font-weight:normal;height:13px;line-height:13px;margin:0 10px 0 0;outline-color:white;outline-style:none;outline-width:0px;padding:12px 17px;position:relative;text-align:left;text-decoration:none;text-shadow:rgba(0, 0, 0, 0.35) 0px -1px 1px;-moz-box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;-o-box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;-webkit-box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;}
+.main{width:680px;float:left;margin-right:20px;}.main iframe{border:5px solid #dfdfdf;}
+.sidebar{width:260px;float:left;margin-top:10px;}.sidebar p{font-size:12px;line-height:24px;}
+.sidebar .browse ul li{width:240px;}
+.browse ul li{width:160px;margin:10px 0;padding:10px;background:#C3D6E8;text-shadow:0px 1px 1px rgba(255, 255, 255, 0.7);}
+.category ul{list-style:disc;}.category ul li{margin:15px 0 15px 20px;}
+#masthead,#header h1,ul#sub-menu,#content,#footer,.wrapper{width:960px;margin:0 auto;}
+#masthead{margin:80px auto 30px auto;}#masthead a{}#masthead a.logo{background:url('../img/dsimcoe-wordmark-sm.png') 0 0 no-repeat;text-indent:-9999px;color:#999;font-weight:normal;font-size:24px;float:left;padding:4px 0;margin:0;width:516px;height:104px;}
+#masthead ul#menu,#masthead ul#update-menu{display:block;float:right;margin:10px 0;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}#masthead ul#menu li,#masthead ul#update-menu li{display:inline;}#masthead ul#menu li.current a,#masthead ul#update-menu li.current a{background:#ccc;}
+#masthead ul#menu a,#masthead ul#update-menu a{color:#333;font-weight:normal;padding:4px 6px;-webkit-border-radius:5px;}#masthead ul#menu a:hover,#masthead ul#update-menu a:hover{background:#eee;}
+#masthead ul#menu{font-size:18px;margin:80px 0 40px 0;}#masthead ul#menu li{margin:10px 5px;}
+#masthead ul#update-menu{float:right;margin:-20px 0 20px 0;}#masthead ul#update-menu li form{display:inline;}
+#masthead ul#update-menu li input{display:inline;padding:5px;font-size:15px;font-family:"Helvetica Neue",Arial,Helvetica,sans-serif !important;outline:none;border:2px solid #ddd;-webkit-border-radius:5px;width:250px;background:#efefef;color:#fff;margin:10px 0;text-shadow:0px 1px 1px #ffffff;}
+#masthead ul#update-menu li a{background:#e0e0e0;font-size:14px;font-weight:normal !important;margin-left:5px;padding:7px;text-shadow:0px 1px 1px rgba(255, 255, 255, 0.5);}#masthead ul#update-menu li a sub{font-size:10px;}
+body.home #header{padding:40px 0 0 0;}body.home #header .art{background:url('../img/fan-sm.png') 50% 0 no-repeat;margin:-40px 0 0 0;}
+body.home #header .wrapper{padding:30px 0;margin:0 auto;}
+#header{clear:both;background:#978e80 url('../img/header-pattern.jpg') repeat-x;padding:40px 0 20px 0;margin:10px 0;-moz-box-shadow:0 0 15px rgba(0,0,0,0.25);-o-box-shadow:0 0 15px rgba(0,0,0,0.25);-webkit-box-shadow:0 0 15px rgba(0,0,0,0.25);box-shadow:0 0 15px rgba(0,0,0,0.25);z-index:0;}#header form{width:960px;margin:0 auto;}#header form input{float:right;padding:7px;font-size:15px;font-family:"Helvetica Neue",Arial,Helvetica,sans-serif !important;outline:none;border:2px solid #555;-webkit-border-radius:5px;width:300px;background:#353535;color:#fff;}
+#header form#front input{float:left;width:500px;}
+#header h1 a{text-transform:uppercase;font-size:46px;font-weight:normal;color:#fff;text-shadow:0px 2px 4px rgba(0, 0, 0, 0.4);}
+#header h1 a span{font-size:52px;}
+#header h2.sub-head{margin:20px 0;font-size:32px;line-height:38px;font-family:'SortsMillGoudyItalic','Open Baskerville',Baskerville,Palatino,'Goudy Old Style',Georgia,Times,serif;color:#ededec;text-shadow:0px 2px 4px rgba(0, 0, 0, 0.4);}
+#header h3{color:#fff;font-weight:normal;}
+#header p{color:#fff;}
+#header ul#sub-menu{text-align:right;margin:30px auto -28px auto;}#header ul#sub-menu li{display:inline;margin:0 3px;}#header ul#sub-menu li a{padding:7px;color:#fff;background:#777;}#header ul#sub-menu li a:hover{background:#555;}
+#header ul#sub-menu li.current a{background:#fff;color:#000;}#header ul#sub-menu li.current a:hover{background:#fff;}
+#header ul#sub-menu h4{font-style:italic;margin:10px 340px 10px 0;}
+#announce{position:relative;background:rgba(0, 0, 0, 0.6) url('../img/announce-2.png') 0 0 repeat;margin:-50px 0 15px 0;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomleft:5px;border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomright:5px;border-bottom-right-radius:5px;-moz-box-shadow:0 4px 8px rgba(0,0,0,0.5);-o-box-shadow:0 4px 8px rgba(0,0,0,0.5);-webkit-box-shadow:0 4px 8px rgba(0,0,0,0.5);box-shadow:0 4px 8px rgba(0,0,0,0.5);}#announce h3{background:rgba(0, 0, 0, 0.25);border-bottom:1px solid rgba(255, 255, 255, 0.1);padding:10px 0 10px 10px;text-align:center;}
+#announce h4{font-size:14px;padding:10px 10px 20px 10px;}
+#announce span{display:block;}
+#announce .label{font-size:16px;text-align:center;color:#fff;margin:4px 0;}
+#announce .data{font-size:22px;text-align:center;color:#ccc;margin:4px 0;}
+#content{clear:both;margin:40px auto;}#content .masonry{margin:30px 0 0 0;}
+#content ul#services-list{display:inline;margin-bottom:40px;}#content ul#services-list .amp{color:#fff;text-shadow:rgba(0, 0, 0, 0.35) 0px -1px 1px;}
+#content ul#services-list li.item{background-clip:border-box;background:url(../img/36px-blended-2.png) repeat-x 0 0 #4f4a41;background-origin:padding-box;border:1px solid rgba(0, 0, 0, 0.246094);display:inline;float:left;margin:10px;display:inline-block;width:277px;padding:10px;text-align:center;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:18px;color:#fff;text-shadow:rgba(0, 0, 0, 0.35) 0px -1px 1px;-moz-box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;-o-box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;-webkit-box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;box-shadow:rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px;vertical-align:middle;}#content ul#services-list li.item p{margin:15px 0 0 0;font-style:italic;}
+#content ul#services-list ul.sub-list{margin:20px 0 0 0;list-style-type:disc;text-align:left;font-style:italic;padding-left:20px;}#content ul#services-list ul.sub-list li{font-size:15px;font-style:normal;padding:3px 0;}
+#content form{margin:30px 0;}
+#content label,#content input{display:block;width:700px;margin:10px auto;}
+#content label{font-style:italic;}
+#content input{padding:7px;font-size:15px;font-family:"Helvetica Neue",Arial,Helvetica,sans-serif !important;font-weight:normal;outline:none;border:3px solid #bbb;}
+#content h2{font-size:30px;font-weight:normal;margin:10px 0;}
+#content .amp{color:rgba(0, 0, 0, 0.65);}
+#content h3{font-weight:normal;margin:10px 0;}
+#content h3.meta{color:#555;}
+#content p{font-size:18px;line-height:30px;}
+#footer{font-size:18px;margin:30px auto 60px auto;clear:both;border-top:2px solid #999;}#footer p{color:#999;margin-top:20px;}
+#content input.check{display:inline !important;}
+#sort li{margin:20px 0;}#sort li a{background:#f4faff url('http://cdn1.iconfinder.com/data/icons/uidesignicons/checkbox_yes.png') 5px 50% no-repeat;padding:5px 5px 5px 26px;}
+div.vcard{margin:50px 0 20px 0;padding-bottom:10px;border-bottom:3px solid #ccc;}div.vcard .org{font-size:18px;margin:15px 0;}
+div.vcard .adr{font-size:16px;margin:15px 0;}
+div.vcard .tel,div.vcard .email{font-size:16px;}
+div.vcard div.email{margin:15px 0;}
